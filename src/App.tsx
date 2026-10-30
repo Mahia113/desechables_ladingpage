@@ -40,10 +40,12 @@ export default function App() {
       {/* Header / Barra Superior */}
       <header className="absolute top-0 left-0 right-0 z-30 border-b border-white/10 backdrop-blur-md bg-slate-950/40">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="text-xl sm:text-2xl font-black tracking-tight text-white">
-              Desechables <span className="text-emerald-400 font-extrabold">Guillén</span>
-            </span>
+          <div className="flex items-center gap-3">
+            <img
+              src="/logo-white.png"
+              alt="Desechables Guillén"
+              className="h-10 sm:h-12 w-auto object-contain"
+            />
           </div>
 
           <div className="flex items-center gap-2 sm:gap-3">
@@ -82,9 +84,20 @@ export default function App() {
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
+          {/* Logo Principal en Hero */}
+          <div className="flex justify-center">
+            <div className="p-4 sm:p-5 rounded-3xl bg-slate-950/60 border border-white/10 backdrop-blur-md shadow-2xl hover:border-emerald-500/40 transition">
+              <img
+                src="/logo-white.png"
+                alt="Desechables Guillén"
+                className="h-20 sm:h-28 w-auto object-contain mx-auto"
+              />
+            </div>
+          </div>
+
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-medium">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Desechables Guillén • Venta por mayoreo y menudeo
+            Plásticos & Desechables • Venta por mayoreo y menudeo
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight text-white leading-[1.15]">
@@ -257,8 +270,12 @@ export default function App() {
       {/* Footer Minimalista */}
       <footer className="border-t border-white/10 bg-slate-950 py-10 px-4 sm:px-6 text-slate-400 text-xs sm:text-sm">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="space-y-1 text-center md:text-left">
-            <p className="text-white font-bold text-base">{CONFIG.businessName}</p>
+          <div className="space-y-2 text-center md:text-left flex flex-col items-center md:items-start">
+            <img
+              src="/logo-white.png"
+              alt="Desechables Guillén"
+              className="h-10 w-auto object-contain"
+            />
             <p className="text-slate-400 text-xs">{CONFIG.slogan}</p>
           </div>
 
