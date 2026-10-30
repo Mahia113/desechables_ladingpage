@@ -1,6 +1,6 @@
-# Desechables Landing Page
+# Desechables Guillén - Landing Page
 
-Landing page moderna y responsiva para negocio de comercialización y distribución de productos desechables, contenedores de alimentos, delivery y línea biodegradable.
+Landing page moderna y responsiva para Desechables Guillén: comercialización y distribución de productos desechables, contenedores de alimentos, delivery y línea biodegradable.
 
 ## 🚀 Tecnologías
 

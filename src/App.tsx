@@ -4,10 +4,10 @@ import { MessageCircle, MapPin, CheckCircle, ArrowUpRight } from 'lucide-react'
 // CONFIGURACIÓN RÁPIDA DE CONTACTO
 // ===================================================
 const CONFIG = {
-  businessName: 'Desechables & Suministros',
+  businessName: 'Desechables Guillén',
   slogan: 'Soluciones confiables en productos desechables y línea biodegradable',
   whatsappNumber: '524531159737',
-  whatsappMessage: '¡Hola! Me gustaría cotizar productos desechables para mi negocio / evento.',
+  whatsappMessage: '¡Hola! Me gustaría cotizar productos desechables con Desechables Guillén.',
   facebookUrl: 'https://www.facebook.com/profile.php?id=61578748297963',
   city: 'Servicio local y entregas inmediatas',
 }
@@ -42,9 +42,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-xl sm:text-2xl font-black tracking-tight text-white">
-              {CONFIG.businessName.split('&')[0]}
-              <span className="text-emerald-400 font-extrabold">&</span>
-              {CONFIG.businessName.split('&')[1] || ''}
+              Desechables <span className="text-emerald-400 font-extrabold">Guillén</span>
             </span>
           </div>
 
@@ -86,7 +84,7 @@ export default function App() {
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-medium">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Venta por mayoreo y menudeo
+            Desechables Guillén • Venta por mayoreo y menudeo
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight text-white leading-[1.15]">
