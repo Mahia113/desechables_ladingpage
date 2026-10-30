@@ -1,4 +1,4 @@
-# Desechables Landing Page (DesechablesPro)
+# Desechables Landing Page
 
 Landing page moderna y responsiva para negocio de comercialización y distribución de productos desechables, contenedores de alimentos, delivery y línea biodegradable.
 
@@ -31,11 +31,3 @@ Landing page moderna y responsiva para negocio de comercialización y distribuci
    ```bash
    npm run preview
    ```
-
-## 🌟 Características de la Landing Page
-
-- **Hero Section:** Mensaje de impacto con llamada a la acción y propuesta de valor clara.
-- **Catálogo de Líneas:** Filtros interactivos por categorías (Línea Biodegradable, Vasos & Bebidas, Contenedores Delivery, Cubiertos & Servilletas, Bolsas, Películas de Aluminio).
-- **Cotizador Rápido WhatsApp:** Selección rápida de tipo de producto y volumen de compra para contactar directamente a ventas.
-- **Beneficios:** Enfoque comercial con mayoreo, entrega express y grado alimenticio.
-- **Preguntas Frecuentes (FAQ):** Acordeón interactivo para resolver dudas comunes.

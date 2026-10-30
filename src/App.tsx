@@ -1,16 +1,14 @@
 import { MessageCircle, MapPin, CheckCircle, ArrowUpRight } from 'lucide-react'
 
 // ===================================================
-// CONFIGURACIÓN RÁPIDA - EDITA TUS DATOS AQUÍ
+// CONFIGURACIÓN RÁPIDA DE CONTACTO
 // ===================================================
 const CONFIG = {
-  businessName: 'Desechables & Empaques',
-  slogan: 'Soluciones confiables en desechables y productos biodegradables',
-  // Reemplaza con tu número a 10 dígitos (ej: 521XXXXXXXXXX con clave de país)
-  whatsappNumber: '521234567890',
+  businessName: 'Desechables & Suministros',
+  slogan: 'Soluciones confiables en productos desechables y línea biodegradable',
+  whatsappNumber: '524531159737',
   whatsappMessage: '¡Hola! Me gustaría cotizar productos desechables para mi negocio / evento.',
-  // Reemplaza con el enlace directo a tu perfil o fanpage de Facebook
-  facebookUrl: 'https://facebook.com',
+  facebookUrl: 'https://www.facebook.com/profile.php?id=61578748297963',
   city: 'Servicio local y entregas inmediatas',
 }
 
@@ -79,7 +77,7 @@ export default function App() {
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=2000&q=80"
-            alt="Empaques y desechables de calidad"
+            alt="Productos desechables de calidad"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-slate-950/85 via-slate-950/75 to-slate-950" />
@@ -92,11 +90,11 @@ export default function App() {
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight text-white leading-[1.15]">
-            Todo en desechables y empaques para tu <span className="text-emerald-400">negocio</span> o <span className="text-emerald-400">evento</span>
+            Todo en productos desechables para tu <span className="text-emerald-400">negocio</span> o <span className="text-emerald-400">evento</span>
           </h1>
 
           <p className="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto font-normal leading-relaxed">
-            Contamos con recipientes térmicos, vasos, bolsas, cubiertos y empaques ecológicos. Contáctanos directamente para pedidos y listas de precios.
+            Contamos con recipientes térmicos, vasos, bolsas, cubiertos y alternativas ecológicas. Contáctanos directamente para pedidos y listas de precios.
           </p>
 
           {/* Botones de Acción Principales */}
@@ -155,7 +153,7 @@ export default function App() {
               <div className="h-64 overflow-hidden relative">
                 <img
                   src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=800&q=80"
-                  alt="Empaques para alimentos y delivery"
+                  alt="Recipientes para alimentos y delivery"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
@@ -164,9 +162,9 @@ export default function App() {
                 </span>
               </div>
               <div className="p-6 space-y-2">
-                <h3 className="text-lg font-bold text-white">Contenedores y Empaques</h3>
+                <h3 className="text-lg font-bold text-white">Contenedores y Recipientes</h3>
                 <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-                  Cajas térmicas, charolas, platos, recipientes herméticos y empaques resistentes a grasas y líquidos.
+                  Cajas térmicas, charolas, platos, recipientes herméticos y materiales resistentes a grasas y líquidos.
                 </p>
               </div>
             </div>
