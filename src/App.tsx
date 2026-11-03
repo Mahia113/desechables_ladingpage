@@ -12,6 +12,8 @@ const CONFIG = {
   mapsUrl: 'https://maps.app.goo.gl/fuRTjZAtPBNdxeaM7',
   mapsEmbedUrl: 'https://maps.google.com/maps?q=19.0920618,-102.3527957&hl=es&z=17&output=embed',
   city: 'Apatzingán, Michoacán • Servicio local y entregas inmediatas',
+  scheduleWeek: 'Lunes a Sábado: 8:00 am a 6:30 pm',
+  scheduleSunday: 'Domingo: 8:00 am a 3:30 pm',
 }
 
 const WHATSAPP_LINK = `https://wa.me/${CONFIG.whatsappNumber.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(CONFIG.whatsappMessage)}`
@@ -282,10 +284,13 @@ export default function App() {
                   <div className="w-12 h-12 rounded-2xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center shrink-0 text-blue-400">
                     <Clock className="w-6 h-6" />
                   </div>
-                  <div>
+                  <div className="space-y-1">
                     <h3 className="font-bold text-white text-base">Horario de Atención</h3>
-                    <p className="text-slate-300 text-sm mt-1">Lunes a Sábado</p>
-                    <p className="text-slate-500 text-xs mt-0.5">Atención en tienda y por WhatsApp</p>
+                    <div className="text-sm text-slate-300 space-y-0.5">
+                      <p><span className="font-semibold text-white">Lunes a Sábado:</span> 8:00 am – 6:30 pm</p>
+                      <p><span className="font-semibold text-white">Domingo:</span> 8:00 am – 3:30 pm</p>
+                    </div>
+                    <p className="text-slate-500 text-xs pt-1">Atención en tienda y por WhatsApp</p>
                   </div>
                 </div>
               </div>
@@ -388,7 +393,7 @@ export default function App() {
             <p className="text-slate-400 text-xs">{CONFIG.slogan}</p>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-4 text-xs">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 text-xs text-slate-400">
             <a
               href={CONFIG.mapsUrl}
               target="_blank"
@@ -397,6 +402,10 @@ export default function App() {
             >
               <MapPin className="w-3.5 h-3.5 text-emerald-400" /> {CONFIG.city}
             </a>
+            <span className="hidden sm:inline text-white/20">•</span>
+            <span className="flex items-center gap-1.5 text-slate-300">
+              <Clock className="w-3.5 h-3.5 text-blue-400" /> Lun-Sáb: 8:00 am - 6:30 pm | Dom: 8:00 am - 3:30 pm
+            </span>
           </div>
 
           <div className="flex items-center gap-3">
