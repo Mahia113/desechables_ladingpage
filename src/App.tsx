@@ -74,16 +74,16 @@ export default function App() {
         </div>
       </header>
 
-      {/* Hero Section Principal con Foto de Fondo */}
+      {/* Hero Section Principal con Foto de Fondo de Bodega de Desechables */}
       <section className="relative min-h-[90vh] sm:min-h-screen flex items-center justify-center pt-24 pb-16 px-4 sm:px-6">
-        {/* Imagen de fondo con overlay suave */}
+        {/* Imagen de fondo con overlay suave para visibilidad de la bodega */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=2000&q=80"
-            alt="Productos desechables de calidad"
+            src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=80"
+            alt="Bodega de distribución de desechables y materias primas"
             className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/85 via-slate-950/75 to-slate-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/70 to-slate-950" />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
@@ -228,15 +228,15 @@ export default function App() {
         </div>
       </section>
 
-      {/* Banner de Contacto / Call to Action con Foto de Fondo */}
+      {/* Banner de Contacto / Call to Action con Foto de Fondo de Bodega / Almacén */}
       <section className="relative py-24 px-4 sm:px-6 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=2000&q=80"
-            alt="Cocina y pedidos"
+            src="https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=2000&q=80"
+            alt="Almacén de productos desechables"
             className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-slate-950/90" />
+          <div className="absolute inset-0 bg-slate-950/85" />
         </div>
 
         <div className="relative z-10 max-w-3xl mx-auto text-center space-y-6">
