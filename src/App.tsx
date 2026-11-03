@@ -5,7 +5,7 @@ import { MessageCircle, MapPin, CheckCircle, ArrowUpRight } from 'lucide-react'
 // ===================================================
 const CONFIG = {
   businessName: 'Desechables Guillén',
-  slogan: 'Soluciones confiables en productos desechables y línea biodegradable',
+  slogan: 'Desechables y materias primas para tu negocio o evento',
   whatsappNumber: '524531159737',
   whatsappMessage: '¡Hola! Me gustaría cotizar productos desechables con Desechables Guillén.',
   facebookUrl: 'https://www.facebook.com/profile.php?id=61578748297963',
@@ -42,10 +42,13 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="/logo-white.png"
+              src="/logo.png"
               alt="Desechables Guillén"
-              className="h-10 sm:h-12 w-auto object-contain"
+              className="h-12 sm:h-14 w-auto object-contain drop-shadow-md"
             />
+            <span className="text-lg sm:text-xl font-black tracking-tight text-white hidden sm:inline">
+              Desechables <span className="text-emerald-400 font-extrabold">Guillén</span>
+            </span>
           </div>
 
           <div className="flex items-center gap-2 sm:gap-3">
@@ -86,18 +89,18 @@ export default function App() {
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
           {/* Logo Principal en Hero */}
           <div className="flex justify-center">
-            <div className="p-4 sm:p-5 rounded-3xl bg-slate-950/60 border border-white/10 backdrop-blur-md shadow-2xl hover:border-emerald-500/40 transition">
+            <div className="p-2 sm:p-3 rounded-full bg-slate-950/70 border border-white/15 backdrop-blur-md shadow-2xl hover:scale-105 transition duration-300">
               <img
-                src="/logo-white.png"
+                src="/logo.png"
                 alt="Desechables Guillén"
-                className="h-20 sm:h-28 w-auto object-contain mx-auto"
+                className="h-32 sm:h-44 w-auto object-contain mx-auto drop-shadow-2xl"
               />
             </div>
           </div>
 
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-medium">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Plásticos & Desechables • Venta por mayoreo y menudeo
+            Desechables y Materias Primas • Venta por mayoreo y menudeo
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight text-white leading-[1.15]">
@@ -270,12 +273,15 @@ export default function App() {
       {/* Footer Minimalista */}
       <footer className="border-t border-white/10 bg-slate-950 py-10 px-4 sm:px-6 text-slate-400 text-xs sm:text-sm">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="space-y-2 text-center md:text-left flex flex-col items-center md:items-start">
-            <img
-              src="/logo-white.png"
-              alt="Desechables Guillén"
-              className="h-10 w-auto object-contain"
-            />
+          <div className="space-y-3 text-center md:text-left flex flex-col items-center md:items-start">
+            <div className="flex items-center gap-3">
+              <img
+                src="/logo.png"
+                alt="Desechables Guillén"
+                className="h-12 w-auto object-contain"
+              />
+              <span className="text-lg font-bold text-white">Desechables Guillén</span>
+            </div>
             <p className="text-slate-400 text-xs">{CONFIG.slogan}</p>
           </div>
 
